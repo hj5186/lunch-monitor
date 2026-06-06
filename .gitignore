@@ -9,7 +9,7 @@ __pycache__/
 
 # PyInstaller
 build/ dist/ *.spec
-
+订餐监控.exe
 # 临时文件
 *.jpg *.png
 ss_crop* screenshot_scaled*
