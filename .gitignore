@@ -1,0 +1,30 @@
+# 运行时生成
+*.log
+*.lock
+catering_monitor_state.json
+
+# Python
+__pycache__/
+*.pyc *.pyo
+
+# PyInstaller
+build/ dist/ *.spec
+
+# 临时文件
+*.jpg *.png
+ss_crop* screenshot_scaled*
+*.swp
+~$*
+
+# 系统
+desktop.ini Thumbs.db
+
+# ====== 本仓库不传这些 ======
+.claude/
+UVM_Register_Model_DeepDive*
+UVM_Register_Model_DataFlow_DeepDive*
+convert_to_mobile_*.py
+generate_*.py
+diagnose.sh
+sort_grades.py
+班级成绩表*
